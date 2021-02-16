@@ -1,0 +1,663 @@
+body {
+  margin: auto;
+  padding: 0%;
+  width: 1280px;
+}
+
+.header {
+  float: left;
+  width: 100%;
+  height: 99px;
+}
+
+.logo {
+  float: left;
+  margin-top: 24px;
+  margin-left: 165px;
+}
+
+.menu {
+  float: left;
+  height: 99px;
+  margin-left: 530px;
+  margin-top: 23px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.menu li a {
+  font-size: 19px;
+  text-decoration: none;
+  color: #565656;
+  font-family: "Segoe WP Light";
+}
+
+.content {
+  background-image: linear-gradient(90deg, #00747d, #0fc2ae);
+  float: left;
+  width: 100%;
+  height: 540px;
+}
+
+.content .slider {
+  float: left;
+  width: 27.9%;
+  height: 122px;
+  margin-left: 923px;
+}
+
+.content .slider .block1 {
+  float: left;
+  width: 119px;
+  height: 122px;
+  background-color: #079994;
+  cursor: pointer;
+}
+
+.content .slider .block2 {
+  float: left;
+  width: 119px;
+  height: 122px;
+  background-color: #048989;
+  cursor: pointer;
+}
+
+.content .slider .block3 {
+  float: left;
+  width: 119px;
+  height: 122px;
+  background-color: #017d82;
+  cursor: pointer;
+}
+
+.app {
+  float: left;
+  width: 150px;
+  height: 60px;
+  margin-top: 45px;
+}
+
+.planeta {
+  float: left;
+}
+
+.apptext {
+  float: left;
+}
+
+.apptext p {
+  color: white;
+  font-family: "Segoe WP Light";
+  font-size: 21px;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.crug1 {
+  width: 420px;
+  height: 420px;
+  background-image: linear-gradient(90deg, #00747d, #0fc2ae);
+  border-radius: 50%;
+  padding: 30px 30px;
+  margin-left: 195px;
+  margin-top: -88px;
+  float: left;
+}
+
+.crug2 {
+  width: 365px;
+  height: 365px;
+  background-image: linear-gradient(90deg, #00747d, #0fc2ae);
+  border-radius: 50%;
+  padding: 30px 30px;
+}
+
+.crug3 {
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(90deg, #00747d, #0fc2ae);
+  border-radius: 50%;
+  padding: 30px 30px;
+}
+
+.phonecontent {
+  margin-left: 22px;
+  margin-top: -75px;
+  opacity: 1;
+}
+
+.icon1 {
+  margin-top: 30px;
+  margin-left: 26px;
+}
+
+.icon2 {
+  margin-top: 29px;
+  margin-left: 38px;
+}
+
+.icon3 {
+  margin-top: 39px;
+  margin-left: 45px;
+}
+
+.about {
+  float: left;
+  width: 100%;
+  height: 753px;
+}
+
+.about h1 {
+  font-size: 41px;
+  color: #636363;
+  font-family: "Segoe WP Light";
+}
+
+.about p {
+  font-family: "Open Sans";
+  color: #9f9f9f;
+  font-size: 15px;
+}
+
+.abouttext {
+  float: left;
+  width: 930px;
+  text-align: center;
+  margin-left: 196px;
+}
+
+.aboutblock {
+  width: 480px;
+  height: 420px;
+  background-image: url(../img/about.png);
+  float: left;
+  margin-left: 440px;
+  margin-top: 40px;
+}
+
+.textabout {
+  float: left;
+  margin-left: 105px;
+}
+
+.textabout p {
+  font-size: 42px;
+  font-family: "New Athena Unicode";
+  color: white;
+  margin: 0;
+}
+
+.textabout h1 {
+  font-size: 88px;
+  font-family: "New Athena Unicode";
+  color: white;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.aboutphone {
+  float: left;
+  margin-left: 175px;
+  margin-top: 65px;
+}
+
+.imgabout {
+  margin-top: 48px;
+  margin-left: 430px;
+}
+
+.sec3 {
+  float: left;
+  width: 100%;
+  height: 696px;
+  background-image: linear-gradient(90deg, #01646c, #068281, #09a197);
+}
+
+.computer .height {
+  font-family: "Segoe WP Light";
+  font-size: 39px;
+  color: white;
+  margin: 0;
+}
+
+.computer .light {
+  font-family: "Segoe WP Light";
+  font-size: 17px;
+  color: white;
+  margin: 0;
+}
+
+.content .height {
+  font-family: "Segoe WP Light";
+  font-size: 39px;
+  color: white;
+  margin: 0;
+}
+
+.content .light {
+  font-family: "Segoe WP Light";
+  font-size: 17px;
+  color: white;
+  margin: 0;
+}
+
+.content .comtext .buttonbuy .korzinka {
+  background-color: #259d8e;
+}
+
+.content .comtext .buttonbuy .textbutton {
+  background-color: #54d3c3;
+}
+
+.content .comtext {
+  float: left;
+  margin-top: 144px;
+  margin-left: -145px;
+}
+
+.com {
+  float: left;
+  margin-left: 171px;
+  margin-top: 121px;
+}
+
+.comtext {
+  float: left;
+  margin-top: 179px;
+}
+
+.buttonbuy {
+  width: 172px;
+  height: 45px;
+  margin-top: 34px;
+  cursor: pointer;
+}
+
+.korzinka {
+  float: left;
+  width: 55px;
+  height: 45px;
+  background-color: #3edac6;
+}
+
+.textbutton {
+  float: left;
+  width: 117px;
+  height: 45px;
+  background-color: #06ccb3;
+  text-align: center;
+}
+
+.textbutton p {
+  font-family: "Segoe WP Light";
+  font-size: 21px;
+  color: white;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.sec3 .slider {
+  float: left;
+  width: 100%;
+  height: 170px;
+}
+
+.sec3 .slider .block1 {
+  float: left;
+  width: 213px;
+  height: 170px;
+  background-color: #01646c;
+  cursor: pointer;
+}
+
+.sec3 .slider .block2 {
+  float: left;
+  width: 216px;
+  height: 170px;
+  background-color: #097b84;
+  cursor: pointer;
+}
+
+.sec3 .slider .block3 {
+  float: left;
+  width: 215px;
+  height: 170px;
+  background-color: #118f99;
+  cursor: pointer;
+}
+
+.sec3 .slider .block4 {
+  float: left;
+  width: 213px;
+  height: 170px;
+  background-color: #1da0aa;
+  cursor: pointer;
+}
+
+.sec3 .slider .block5 {
+  float: left;
+  width: 213px;
+  height: 170px;
+  background-color: #29b7c2;
+  cursor: pointer;
+}
+
+.sec3 .slider .block6 {
+  float: left;
+  width: 210px;
+  height: 170px;
+  background-color: #3ccad5;
+  cursor: pointer;
+}
+
+.kkk {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.iconss {
+  margin-top: 45px;
+  margin-left: 70px;
+}
+
+.sec4 {
+  float: left;
+  width: 100%;
+  height: 512px;
+}
+
+.s1 {
+  float: left;
+  width: 784px;
+  height: 512px;
+}
+
+.ones1 {
+  font-size: 200.05px;
+  font-family: "Segoe WP Black";
+  color: #49d7b0;
+  margin: 0%;
+  margin-left: 202px;
+}
+
+.twos2 {
+  font-size: 74.05px;
+  font-family: "Segoe WP Light";
+  color: #49d7b0;
+  margin: 0%;
+  margin-left: 202px;
+}
+
+.s2 {
+  float: left;
+  width: 496px;
+  height: 512px;
+  background-color: #49d7b0;
+}
+
+.str {
+  margin-top: 148px;
+  margin-left: 149px;
+}
+
+.footer {
+  border-top: solid 1px #dedede;
+  float: left;
+  width: 100%;
+  height: 101px;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 40px;
+  color: #989898;
+  font-size: 24px;
+  font-family: "Segoe WP Light";
+}
+
+.iphone {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  .logo {
+    margin-left: 5%;
+  }
+  .menu {
+    float: right;
+    margin-left: 0%;
+    margin-right: 5%;
+  }
+  .content .slider {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .crug1 {
+    margin-left: 5%;
+    padding: 2.34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .crug2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .crug2,
+  .crug3 {
+    padding: 0;
+    margin: 0;
+  }
+  .comtext .height {
+    font-size: 1.5em;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+  }
+  .abouttext {
+    margin: 0%;
+    width: 90%;
+  }
+  .aboutblock {
+    margin-left: 6%;
+  }
+  .sec3 .slider .block1,
+  .sec3 .slider .block2,
+  .sec3 .slider .block3,
+  .sec3 .slider .block4,
+  .sec3 .slider .block5,
+  .sec3 .slider .block6 {
+    width: 16.6667%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconss {
+    margin: 0;
+  }
+  .com {
+    margin: 0%;
+    margin-top: 10%;
+  }
+  .s1 {
+    width: 50%;
+  }
+  .ones1 {
+    font-size: 8em;
+    margin-left: 25%;
+    margin-top: 22.5%;
+  }
+  .twos2 {
+    font-size: 3em;
+    margin-left: 25%;
+  }
+  .s2 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .content .slider {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .crug1 {
+    display: none;
+  }
+  .crug2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .crug2,
+  .crug3 {
+    padding: 0;
+    margin: 0;
+  }
+  .content .comtext {
+    margin-left: -34%;
+  }
+  .iphone {
+    display: block;
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 75%;
+    height: 75%;
+    float: left;
+  }
+  .phonecontent {
+    height: 90%;
+    float: left;
+  }
+  .app {
+    margin-left: -34%;
+  }
+  .content .height {
+    font-size: 22px;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 750px;
+  }
+  .abouttext {
+    margin: 0%;
+    width: 75%;
+  }
+  .aboutblock {
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+  .iconss {
+    margin: 0;
+  }
+  .computer {
+    width: 100%;
+  }
+  .com {
+    margin: 0%;
+    margin-top: 23%;
+    margin-left: 10%;
+    height: 200px;
+  }
+  .computer .comtext .height,
+  .computer .comtext .light,
+  .computer .comtext .buttonbuy {
+    margin-left: 10%;
+  }
+  .computer .comtext .height {
+    font-size: 22px;
+    height: 75%;
+  }
+  .sec4 {
+    height: 370px;
+  }
+  .s1 {
+    width: 100%;
+  }
+  .ones1 {
+    font-size: 8em;
+    margin: 0;
+    text-align: center;
+    margin-top: 3%;
+  }
+  .twos2 {
+    font-size: 3em;
+    margin-left: 0%;
+    text-align: center;
+  }
+  .s2 {
+    display: none;
+  }
+  .str {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    width: 680px;
+  }
+  .content .slider {
+    justify-content: center;
+  }
+  .iphone {
+    margin-top: 5%;
+  }
+  .phonecontent {
+    height: 80%;
+    margin: 0%;
+  }
+  .about {
+    height: auto;
+  }
+  .abouttext {
+    margin-bottom: 5%;
+  }
+  .aboutblock {
+    display: none;
+  }
+  .sec3 {
+    height: auto;
+  }
+  .sec3 .slider {
+    height: auto;
+  }
+  .sec3 .slider .block1,
+  .sec3 .slider .block2,
+  .sec3 .slider .block3,
+  .sec3 .slider .block4,
+  .sec3 .slider .block5,
+  .sec3 .slider .block6 {
+    width: 50%;
+  }
+  .com {
+    margin-top: 10%;
+    margin-left: 7%;
+  }
+  .computer .comtext {
+    margin-top: 12%;
+    margin-bottom: 12%;
+  }
+}

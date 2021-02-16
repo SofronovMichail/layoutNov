@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Segoe WP Light";
+  src: url("../fonts/Segoe\ WP\ Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Segoe WP Black";
+  src: url("../fonts/Segoe\ WP\ Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "New Athena Unicode";
+  src: url("../fonts/new_athena_unicode.ttf") format("truetype");
+}
